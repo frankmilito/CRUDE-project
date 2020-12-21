@@ -19,7 +19,7 @@ body {
   background: #fff;
   border-top-right-radius: 2em;
   border-top-left-radius: 2em;
-  height: 100%;
+  height: 100vh;
 }
 .header {
   background: url(./airplane-wing-over-the-clouds-during-sunset-3826131.jpg);
@@ -64,7 +64,7 @@ li {
   color: rgb(0, 153, 255);
 }
 .content {
-  height: 60%;
+  height: 60vh;
   background: #fff;
 }
 .content .item {
@@ -89,6 +89,7 @@ li {
   padding: 10px 5px;
   display: flex;
   align-items: center;
+  height: 5vh;
 }
 .add-to-do .fa {
   font-size: 2em;
@@ -110,13 +111,11 @@ input:focus {
   }
   .container {
     width: 100%;
+    height: vh;
   }
 
   .fa-plus-circle {
     color: rgb(0, 153, 255);
-  }
-  .content {
-    /* height: 100%; */
   }
   .content .item {
     display: flex;
@@ -145,10 +144,10 @@ input:focus {
   }
   input {
     border: none;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   ::placeholder {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
