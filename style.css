@@ -51,6 +51,12 @@ li {
 .fas {
   font-size: 1.4em;
 }
+.fa-sync-alt {
+  transition: 200ms;
+}
+.fa-sync-alt:hover {
+  transform: rotateZ(90deg);
+}
 .fa-check-circle {
   color: rgb(10, 189, 85);
 }

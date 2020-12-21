@@ -98,5 +98,5 @@ button.addEventListener('click', function(e){
 
 })
 clear.addEventListener('click', function(e){
-    
+    list.innerHTML=''
 })
