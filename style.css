@@ -12,9 +12,13 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 2em;
+  background: #ddd;
 }
 .container {
   width: 400px;
+  background: #fff;
+  border-top-right-radius: 2em;
+  border-top-left-radius: 2em;
 }
 .header {
   background: url(./airplane-wing-over-the-clouds-during-sunset-3826131.jpg);
@@ -54,6 +58,7 @@ li {
 }
 .content {
   height: 100%;
+  background: #fff;
 }
 .content .item {
   display: flex;
@@ -72,6 +77,7 @@ li {
   color: silver;
 }
 .add-to-do {
+  background: #fff;
   border-top: 1px solid silver;
   padding: 10px 5px;
   display: flex;
