@@ -99,7 +99,6 @@ input:focus {
 
 @media only screen and (max-width: 700px) {
   body {
-    height: 90vh;
     margin: 0em;
   }
   .container {
